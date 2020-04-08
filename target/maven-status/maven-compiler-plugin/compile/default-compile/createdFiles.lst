@@ -1,0 +1,8 @@
+kz/djuga/mvc/Application.class
+kz/djuga/mvc/UserRepo.class
+kz/djuga/mvc/config/WebSecurityConfig.class
+kz/djuga/mvc/controller/RegistrationController.class
+kz/djuga/mvc/domain/Role.class
+kz/djuga/mvc/config/MvcConfig.class
+kz/djuga/mvc/controller/MainController.class
+kz/djuga/mvc/domain/User.class
