@@ -1,6 +1,5 @@
-<#macro html5 title> 
-
-<!DOCTYPE HTML>
+<#include "security.ftl">
+<#macro html5 title> <!DOCTYPE HTML>
 <html>
 <head>
 <title>${title}</title>
@@ -12,14 +11,21 @@
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
 	crossorigin="anonymous">
+
+<link rel="stylesheet"
+	href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 </head>
 <body>
 	<div class="container">
-		<#include "/parts/menu.ftl">	
+		<#include "/parts/menu.ftl">
 	</div>
 	<div class="container">
 		<#nested />
 	</div>
+
+
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
 		crossorigin="anonymous"></script>

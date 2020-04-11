@@ -21,7 +21,7 @@
 			</div>
 			<div class="col">
 				<#list user.roles as role>
-					${role},
+					${role} <#sep>,
 				</#list>
 			</div>
 			<div class="col">

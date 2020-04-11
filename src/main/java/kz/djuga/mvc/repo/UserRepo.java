@@ -1,4 +1,4 @@
-package kz.djuga.mvc;
+package kz.djuga.mvc.repo;
 
 
 import org.springframework.data.jpa.repository.JpaRepository;
